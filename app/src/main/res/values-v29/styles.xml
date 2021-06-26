@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainStyle" parent="_BaseMainStyle">
+        <!-- Without this configuration, the "Ultra battery saver" of MIUI will force app into dark theme. -->
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>
