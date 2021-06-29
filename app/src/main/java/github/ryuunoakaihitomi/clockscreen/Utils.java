@@ -1,4 +1,4 @@
-package github.ryuunoakaihitomi.hmclockscreen;
+package github.ryuunoakaihitomi.clockscreen;
 
 import android.os.Bundle;
 import android.util.Log;

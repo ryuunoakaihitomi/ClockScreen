@@ -21,8 +21,8 @@ android {
         applicationId "github.ryuunoakaihitomi.clockscreen"
         minSdkVersion 19
         targetSdkVersion 30
-        versionCode 1
-        versionName "hi"
+        versionCode 2
+        versionName "fu"
         resConfigs "en"
     }
     buildTypes {

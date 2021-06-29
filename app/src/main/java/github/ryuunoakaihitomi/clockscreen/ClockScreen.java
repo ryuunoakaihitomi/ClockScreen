@@ -1,4 +1,4 @@
-package github.ryuunoakaihitomi.hmclockscreen;
+package github.ryuunoakaihitomi.clockscreen;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -28,7 +28,7 @@ import androidx.core.view.WindowInsetsControllerCompat;
 
 import java.util.Date;
 
-import github.ryuunoakaihitomi.hmclockscreen.databinding.ActivityMainBinding;
+import github.ryuunoakaihitomi.clockscreen.databinding.ActivityMainBinding;
 
 public class ClockScreen extends Activity {
 

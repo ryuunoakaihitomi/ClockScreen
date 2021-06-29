@@ -1,4 +1,4 @@
-package github.ryuunoakaihitomi.hmclockscreen;
+package github.ryuunoakaihitomi.clockscreen;
 
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
@@ -45,7 +45,7 @@ public class CalendarDialog {
             // but datePicker.set(Max/Min)Date can't limit the scope on 5.0.
             long now = System.currentTimeMillis();
             datePicker.setMaxDate(now);
-            datePicker.setMinDate(now);
+            datePicker.setMinDate(now - 1000);   // Fix java.lang.IllegalArgumentException: fromDate: X does not precede toDate: X
         }
 
         // Style List:
